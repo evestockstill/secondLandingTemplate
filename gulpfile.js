@@ -140,4 +140,4 @@ var watchActual = gulp.parallel(watchFiles, browserSync);
 var watch = gulp.series(preWatch, watchActual);
 
 exports.watch = watch;
-exports.default = build;
+exports.build = build;
